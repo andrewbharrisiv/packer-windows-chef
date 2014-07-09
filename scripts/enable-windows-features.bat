@@ -1,0 +1,25 @@
+echo "Enabling Windows Features"
+Dism /online /Enable-Feature /FeatureName:NetFx4 /All
+Dism /online /Enable-Feature /FeatureName:NetFx4ServerFeatures /All
+Dism /online /Enable-Feature /FeatureName:NetFx4Extended-ASPNET45 /All
+Dism /online /Enable-Feature /FeatureName:NetFx3 /All
+Dism /online /Enable-Feature /FeatureName:NetFx3ServerFeatures /All
+Dism /online /Enable-Feature /FeatureName:IIS-WebServerRole /All
+Dism /online /Enable-Feature /FeatureName:IIS-WebServer /All
+Dism /online /Enable-Feature /FeatureName:IIS-CommonHttpFeatures /All
+Dism /online /Enable-Feature /FeatureName:IIS-DefaultDocument /All
+Dism /online /Enable-Feature /FeatureName:IIS-DirectoryBrowsing /All
+Dism /online /Enable-Feature /FeatureName:IIS-HttpErrors /All
+Dism /online /Enable-Feature /FeatureName:IIS-StaticContent /All
+Dism /online /Enable-Feature /FeatureName:IIS-HttpRedirect /All
+Dism /online /Enable-Feature /FeatureName:IIS-HealthAndDiagnostics /All
+Dism /online /Enable-Feature /FeatureName:IIS-HttpLogging /All
+Dism /online /Enable-Feature /FeatureName:IIS-CustomLogging /All
+Dism /online /Enable-Feature /FeatureName:IIS-HttpTracing /All
+Dism /online /Enable-Feature /FeatureName:IIS-ApplicationDevelopment /All
+Dism /online /Enable-Feature /FeatureName:IIS-NetFxExtensibility /All
+Dism /online /Enable-Feature /FeatureName:IIS-NetFxExtensibility45 /All
+Dism /online /Enable-Feature /FeatureName:IIS-ISAPIExtensions /All
+Dism /online /Enable-Feature /FeatureName:IIS-ISAPIFilter /All
+Dism /online /Enable-Feature /FeatureName:IIS-ASPNET /All
+Dism /online /Enable-Feature /FeatureName:IIS-ASPNET45 /All
